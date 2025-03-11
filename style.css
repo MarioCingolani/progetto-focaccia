@@ -1,0 +1,84 @@
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.banner {
+    background-color: #fdfaf1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c3d33;
+    border-top: 4px solid #f4c04e; 
+    margin-top: 10px;
+}
+
+.banner strong{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: rgb(42, 40, 40);
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color: rgb(42, 40, 40);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+h3{
+    padding-left: 800px;
+    color: rgb(42, 40, 40);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.centralimage{
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%; /* La larghezza del contenitore */
+    height: 100px; /* Altezza del contenitore */
+    max-width: 600px;
+    text-align: left;
+}
+
+.text {
+    display: inline-block; /* Rende il testo un elemento inline-block */
+    text-align: center; /* Allinea il testo a sinistra dentro l'elemento */
+    width: 80%; /* Larghezza del contenitore del testo */
+}
+ul{
+    list-style-type: disc;
+    padding-left: 800px;
+}
+
+li {
+    margin-bottom: 1rem;
+  }
+
+  article h2 {
+    border-bottom: 1px solid rgb(197, 243, 243);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+  }
+
+ol{
+    list-style-type: disc;
+    padding-left: 800px;
+}
+.p{
+    text-align: center;
+}
