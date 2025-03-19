@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+.card {
+    position: relative;
+    width: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+.save-button {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: top 0.3s ease-in-out;
+}
+.bottom-buttons {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: bottom 0.3s ease-in-out;
+}
+.card:hover .save-button {
+    top: 10px;
+}
+.card:hover .bottom-buttons {
+    bottom: 10px;
+}

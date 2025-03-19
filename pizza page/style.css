@@ -82,3 +82,16 @@ ol{
 .p{
     text-align: center;
 }
+
+.Image{
+    text-align: center;
+    color: rgb(42, 40, 40);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+.footer{
+    text-align: center;
+    color: rgb(42, 40, 40);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
